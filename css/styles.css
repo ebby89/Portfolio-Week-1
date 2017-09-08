@@ -68,36 +68,10 @@
   padding-bottom: 20px;
 }
 
-#project1 {
+.project-style {
   text-align: center;
-  background-color: #CEF2E0;
-  margin-top: 100px;
-  border-style: solid;
-  border-width: thick;
-  border-color: black;
-}
-
-#project2 {
-  text-align: center;
-  background-color: #9A72B5;
-  margin-top: 100px;
-  border-style: solid;
-  border-width: thick;
-  border-color: black;
-}
-
-#project3 {
-  text-align: center;
-  background-color: grey;
-  margin-top: 100px;
-  border-style: solid;
-  border-width: thick;
-  border-color: black;
-}
-
-#project4 {
-  text-align: center;
-  background-color: red;
+  background-color: blue;
+  color: white;
   margin-top: 100px;
   border-style: solid;
   border-width: thick;
