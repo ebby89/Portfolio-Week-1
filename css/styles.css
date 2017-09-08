@@ -1,3 +1,11 @@
 body {
   padding-top: 75px;
 }
+
+.home body {
+  background-color: blue;
+}
+
+#left {
+  float: left;
+}
