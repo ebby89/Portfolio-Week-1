@@ -28,7 +28,7 @@
 }
 
 #background-color-projects {
-background-color: #00FFEE;
+  background-color: #00FFEE;
   border-style: solid;
   border-color: black;
   border-width: 6px;
@@ -69,6 +69,7 @@ background-color: #00FFEE;
 }
 
 #project1 {
+  text-align: center;
   background-color: #CEF2E0;
   margin-top: 100px;
   border-style: solid;
@@ -77,18 +78,30 @@ background-color: #00FFEE;
 }
 
 #project2 {
+  text-align: center;
   background-color: #9A72B5;
   margin-top: 100px;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
 }
 
 #project3 {
-  background-color: lightseagreen;
+  text-align: center;
+  background-color: grey;
   margin-top: 100px;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
 }
 
 #project4 {
+  text-align: center;
   background-color: red;
   margin-top: 100px;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
 }
 
 .disclaimer {
