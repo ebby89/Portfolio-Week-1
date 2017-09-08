@@ -54,6 +54,15 @@ background-color: #9EFFFE;
   text-align: center;
 }
 
+.img-pad {
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+  margin-top: 18px;
+  margin-right: 18px;
+  margin-bottom: 18px;
+}
+
 #project1 {
   background-color: lightcoral!important;
 }
