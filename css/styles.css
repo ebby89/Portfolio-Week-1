@@ -1,6 +1,37 @@
-body {
+#home {
   padding-top: 75px;
   background-color: #EDFADE;
+}
+
+#about {
+  padding-top: 75px;
+  background-color: #FADEDF;
+}
+
+#projects {
+  padding-top: 75px;
+  background-color: #DEFAF9;
+}
+
+#background-color-home {
+  background-color: #D0FF9E;
+  border-style: solid;
+  border-color: black;
+  border-width: 6px;
+}
+
+#background-color-about {
+  background-color: #FF9EA0;
+  border-style: solid;
+  border-color: black;
+  border-width: 6px;
+}
+
+#background-color-projects {
+background-color: #9EFFFE;
+  border-style: solid;
+  border-color: black;
+  border-width: 6px;
 }
 
 .name {
@@ -16,27 +47,6 @@ body {
   border-color: black;
   border-width: 6px;
   margin: 30px;
-}
-
-#background-color-home {
-  background-color: #D0FF9E;
-  border-style: solid;
-  border-color: black;
-  border-width: 6px;
-}
-
-#background-color-about {
-  background-color: #FADEDF;
-  border-style: solid;
-  border-color: black;
-  border-width: 6px;
-}
-
-#background-color-projects {
-  background-color: #DEFAF9;
-  border-style: solid;
-  border-color: black;
-  border-width: 6px;
 }
 
 .home-center {
