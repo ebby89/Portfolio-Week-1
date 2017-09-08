@@ -1,22 +1,45 @@
 body {
   padding-top: 75px;
-  background-color: lightblue;
+  background-color: #EDFADE;
 }
 
-.center {
+.name {
   color: blue;
-  text-align: center;
+  font-style: italic;
+  font-variant: small-caps;
 }
 
-.red {
-  color: red;
-}
-
-#circleimg {
+.circleimg {
   height: 600px;
   width: 400px;
+  border-style: solid;
+  border-color: black;
+  border-width: 6px;
+  margin: 30px;
+}
+
+#background-color-home {
+  background-color: #D0FF9E;
+  border-style: solid;
+  border-color: black;
+  border-width: 6px;
+}
+
+#background-color-about {
+  background-color: #FADEDF;
+  border-style: solid;
+  border-color: black;
+  border-width: 6px;
+}
+
+#background-color-projects {
+  background-color: #DEFAF9;
+  border-style: solid;
+  border-color: black;
+  border-width: 6px;
 }
 
 .home-center {
   align-content: center;
+  text-align: center;
 }
