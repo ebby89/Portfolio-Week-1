@@ -1,6 +1,10 @@
 #home {
   padding-top: 75px;
-  background-color: #D0FF9E;
+  background-image: url(../img/1thailand.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #about {
@@ -10,11 +14,10 @@
 
 #projects {
   padding-top: 75px;
-  background-color: #8CE4FF;
+  background-color: #8A99FF;
 }
 
 #background-color-home {
-  background-color: #1EF737;
   border-style: solid;
   border-color: black;
   border-width: 6px;
@@ -68,10 +71,14 @@
   padding-bottom: 20px;
 }
 
+.text-color {
+  color: white;
+}
+
 .project-style {
   text-align: center;
-  background-color: blue;
-  color: white;
+  background-color: #00FFEE;
+  color: black;
   margin-top: 100px;
   border-style: solid;
   border-width: thick;
