@@ -1,6 +1,6 @@
 #home {
   padding-top: 75px;
-  background-image: url(../img/1thailand.jpg);
+  background-image: url(../img/2thailand.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
@@ -9,22 +9,32 @@
 
 #about {
   padding-top: 75px;
-  background-color: #FADEDF;
+  background-image: url(../img/tonsai.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #projects {
   padding-top: 75px;
-  background-color: #8A99FF;
+  background-image: url(../img/1palms.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #background-color-home {
+  opacity: 0.8;
   border-style: solid;
   border-color: black;
   border-width: 6px;
 }
 
 #background-color-about {
-  background-color: #FF9EA0;
+  background-color: #BFAA91;
+  opacity: 0.8;
   border-style: solid;
   border-color: black;
   border-width: 6px;
@@ -32,6 +42,7 @@
 
 #background-color-projects {
   background-color: #00FFEE;
+  opacity: 0.8;
   border-style: solid;
   border-color: black;
   border-width: 6px;
@@ -86,14 +97,24 @@
   color: white;
 }
 
+.brighten {
+  color: white;
+  font-size: 18px;
+}
+
 #brighten {
   color: white;
   font-weight: bold;
 }
 
+.opacity {
+  opacity: 0.8;
+}
+
 .project-style {
   text-align: center;
   background-color: #00FFEE;
+  opacity: 0.8;
   color: black;
   margin-top: 100px;
   border-style: solid;
