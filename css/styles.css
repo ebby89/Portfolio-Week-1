@@ -53,3 +53,15 @@ background-color: #9EFFFE;
   align-content: center;
   text-align: center;
 }
+
+#project1 {
+  background-color: lightcoral!important;
+}
+
+#project2 {
+  background-color: lightsteelblue!important;
+}
+
+#project3 {
+  background-color: lightseagreen!important;
+}
