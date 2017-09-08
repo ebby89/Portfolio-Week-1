@@ -1,12 +1,12 @@
-# _{Application Name}_
+# _GitHub Portfolio Page_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Week 1 Solo Project, 9/8/17_
 
-#### By _**{List of contributors}**_
+#### By _Kyle Ebersole_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_First solo project at Epicodus. Simple "About Me" webpage serving as a homepage for my GitHub portfolio. This project is designed to practice the html/css skills we learned over the course of 3 days._
 
 ## Setup/Installation Requirements
 
