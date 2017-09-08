@@ -1,7 +1,22 @@
 body {
   padding-top: 75px;
+  background-color: lightblue;
 }
 
-.home body {
-  background-color: blue;
+.center {
+  color: blue;
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+#circleimg {
+  height: 600px;
+  width: 400px;
+}
+
+.home-center {
+  align-content: center;
 }

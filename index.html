@@ -2,12 +2,11 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="/css/styles.css" rel="stylesheet" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <meta charset="utf-8">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <title>Kyle Ebersole</title>
   </head>
-  <body class="home">
+  <body class="padding">
 <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
@@ -22,8 +21,8 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="pages/about.html">About Me</a></li>
-            <li><a href="pages/projects.html">Projects</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
           </ul>
         </div>
       </div>
@@ -33,36 +32,38 @@
     <div class="container">
 <!-- Heading -->
       <div class="jumbotron">
-        <h1>Hello, I'm Kyle!</h1>
-        <p class="lead">Welcome to my Epicodus portfolio.</p>
-        <hr class="my-4">
-        <p>Here you will find the introductory projects I am completely embarrased by. Enjoy!</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-md" href="pages/projects.html" role="button">Check them out!</a>
-        </p>
+        <div class="home-center">
+          <h1>Hello, I'm Kyle!</h1>
+          <p class="lead">Welcome to my Epicodus portfolio.</p>
+          <hr class="my-4">
+          <p>Here you will find the introductory projects I am completely embarrased by. Enjoy!</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-md" href="projects.html" role="button">Check them out!</a>
+          </p>
+        </div>
       </div>
 <!-- End Heading -->
 
-<!-- Row -->
+<!-- Content -->
       <div class="row">
         <div class="col-md-6">
           <h1>This is Mosey:</h1>
-            <img src="img/momochair.jpg" alt="Kitty sleeping in a computer chair" style="width:400px;height:600px;">
+            <img id="circleimg" class="featurette-image img-circle img-responsive" src="img/momochair.jpg" alt="Kitty sleeping in a computer chair">
           <p class="lead">Luxury living.</p>
           <hr class="my-4">
           <p>You may bask in her glory.</p>
           <p class="lead">
-            <a class="btn btn-primary btn-md" href="pages/projects.html" role="button">More Momo!</a>
+            <a class="btn btn-primary btn-md" href="projects.html" role="button">More Momo!</a>
           </p>
         </div>
         <div class="col-md-6">
           <h1>AKA: My Master</h1>
-            <img src="img/momosleep.jpg" alt="Kitty sleeping on bed" style="width:400px;height:600px;">
+            <img class="featurette-image img-circle img-responsive" src="img/momosleep.jpg" alt="Kitty sleeping on bed" style="width:400px;height:600px;">
           <p class="lead">Mutual reaction to mornings.</p>
           <hr class="my-4">
         </div>
       </div>
-<!-- End Row -->
+<!-- End Content -->
     </div>
   </body>
 </html>
