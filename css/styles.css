@@ -48,6 +48,16 @@
   border-width: 6px;
 }
 
+.gap {
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+.float {
+  float: left;
+  text-align: left;
+}
+
 .name {
   color: blue;
   font-style: italic;
@@ -119,6 +129,15 @@
   margin-top: 100px;
   border-style: solid;
   border-width: thick;
+  border-color: black;
+}
+
+.project-style2 {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  border-style: solid;
+  border-width: medium;
   border-color: black;
 }
 
