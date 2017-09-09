@@ -33,5 +33,5 @@ Technologies used: GitHub, Atom, and Terminal._
 
 *No license available at this time.*
 
-Copyright (c) 2016 **_Alyssa Moody_**
+Copyright (c) 2016 **_Kyle Ebersole_**
 
