@@ -1,5 +1,7 @@
 # _GitHub Portfolio Page_
 
+https://ebby89.github.io/Portfolio-Week-1/index.html
+
 #### _Week 1 Solo Project, 9/8/17_
 
 #### By _Kyle Ebersole_
