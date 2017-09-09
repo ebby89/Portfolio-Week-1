@@ -139,6 +139,8 @@
   border-style: solid;
   border-width: medium;
   border-color: black;
+  background-color: #BFAA91;
+  opacity: 0.8;
 }
 
 .disclaimer {
