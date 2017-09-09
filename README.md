@@ -21,17 +21,16 @@ _Dropdown navbar menu not expanding_
 
 ## Support and contact details
 
-_Feel free to contact Kyle at kyle.m.ebersole@gmail.com_
+_Feel free to contact Kyle at: kyle.m.ebersole@gmail.com_
 
 ## Technologies Used
 
-_Languages Used: HTML and CSS. 
-Frameworks: Bootstrap. 
+_Languages Used: HTML and CSS.
+Frameworks: Bootstrap.
 Technologies used: GitHub, Atom, and Terminal._
 
 ### License
 
 *No license available at this time.*
 
-Copyright (c) 2016 **_Kyle Ebersole_**
-
+Copyright (c) 2017 **_Kyle Ebersole_**
