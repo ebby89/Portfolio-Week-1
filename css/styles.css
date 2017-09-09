@@ -38,6 +38,7 @@
   border-style: solid;
   border-color: black;
   border-width: 6px;
+  margin-bottom: 100px;
 }
 
 #background-color-projects {
@@ -56,6 +57,21 @@
 .float {
   float: left;
   text-align: left;
+}
+
+.float-r {
+  float: right;
+}
+
+#space {
+  margin-right: 30px;
+}
+
+#blockquote {
+  text-align: center;
+  border-left: none;
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 
 .name {
@@ -145,6 +161,7 @@
   text-align: center;
   color: white;
   margin-top: 100px;
+  padding: 16px;
   border-style: solid;
   border-width: medium;
   border-color: black;
