@@ -4,7 +4,6 @@
     background-position: top;
     background-attachment: fixed;
     background-size: cover;
-    position: relative;
 }
 
 #home {
@@ -16,9 +15,13 @@
 #activities {
   background-image: url(../img/shoe.JPG); }
 #kitties {
-  background-image: url(../img/catface.jpg); }
+  background-image: url(../img/catface.jpg) }
 #contact {
   background-image: url(../img/1bayview.JPG); }
+
+  h1, h2 {
+    font-family: 'Indie Flower', cursive;
+  }
 
 #background-color-home {
   opacity: 0.8;
@@ -215,9 +218,4 @@
 
 hr {
   border-color: black;
-}
-
-.fork-tag:hover {
-  color: white;
-  animation: wiggle 0.4s linear 1;
 }
