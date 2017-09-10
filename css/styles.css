@@ -270,17 +270,7 @@ h1, h2 {
   margin-bottom: 40px;
 }
 
-#main-img {
-  border-style: solid;
-  border-color: white;
-  border-width: thick;
-  border-radius: 100px;
-  margin-top: 40px;
-}
 
-#img-orient {
-  image-orientation: (270deg);
-}
 
 hr {
   border-color: black;
@@ -306,4 +296,12 @@ box-shadow: 0px 3px 8px black;
 
 .btn-red {
   background-color: red;
+}
+
+.main-img {
+  border-style: solid;
+  border-color: white;
+  border-width: thick;
+  border-radius: 100px;
+  margin-top: 80px;
 }
