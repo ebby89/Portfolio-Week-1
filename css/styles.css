@@ -6,6 +6,10 @@
     background-size: cover;
 }
 
+a:hover {
+  color: red;
+}
+
 #home {
   background-image: url(../img/2thailand.JPG); }
 #about {
@@ -19,9 +23,9 @@
 #contact {
   background-image: url(../img/1bayview.JPG); }
 
-  h1, h2 {
-    font-family: 'Indie Flower', cursive;
-  }
+h1, h2 {
+  font-family: 'Bubblegum Sans', cursive;
+}
 
 #background-color-home {
   opacity: 0.8;
@@ -46,7 +50,15 @@
   border-width: 6px;
 }
 
-
+#background-color-contact {
+  opacity: 0.8;
+  border-style: solid;
+  border-color: black;
+  border-width: 6px;
+  width: 50%;
+  position: fixed;
+  position: middle;
+}
 
 .gap {
   margin-bottom: 200px;
@@ -218,4 +230,16 @@
 
 hr {
   border-color: black;
+}
+
+.btn-marg {
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+margin: 20px;
+border-width: thin;
+border-color: black;
+border-radius: 5px;
+box-shadow: 0px 3px 8px black;
 }
