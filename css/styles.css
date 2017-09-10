@@ -200,6 +200,19 @@ h1, h2 {
   font-weight: bold;
 }
 
+.home-well {
+  padding: 30px;
+  background-color: black;
+  opacity: 0.7;
+  border-radius: 100px;
+  width: 40%;
+  margin-top: 86px;
+  float: right;
+  min-width: 250px;
+}
+
+
+
 #ul-pad-r {
   padding-right: 170px;
   padding-bottom: 20px;
@@ -298,10 +311,19 @@ box-shadow: 0px 3px 8px black;
   background-color: red;
 }
 
+.btn-blue {
+  background-color: blue;
+}
+
 .main-img {
   border-style: solid;
-  border-color: white;
+  border-style: inset;
+  border-color: black;
   border-width: thick;
   border-radius: 100px;
   margin-top: 80px;
+}
+
+#marg-bot {
+  margin-bottom: 80px;
 }
