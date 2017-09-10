@@ -84,7 +84,7 @@ h1, h2 {
 }
 
 .gap {
-  margin-bottom: 200px;
+  margin-bottom: 80px;
   text-align: center;
 }
 
@@ -96,6 +96,7 @@ h1, h2 {
 .float {
   float: left;
   text-align: left;
+  clear: both;
 }
 
 .float-r {
@@ -137,24 +138,15 @@ h1, h2 {
 .name {
   color: blue;
   font-style: italic;
-  font-variant: small-caps;
   text-align: center;
   font-weight: bold;
+  font-variant: small-caps;
 }
 
 .name2 {
   color: red;
   font-style: italic;
   font-variant: small-caps;
-}
-
-.circleimg {
-  height: 600px;
-  width: 400px;
-  border-style: solid;
-  border-color: black;
-  border-width: 6px;
-  margin: 30px;
 }
 
 .home-center {
@@ -191,7 +183,7 @@ h1, h2 {
 }
 
 .proj-well {
-  min-height: 18px;
+  min-height: 20px;
   padding: 16px;
   background-color: black;
   opacity: 0.7;
@@ -210,12 +202,12 @@ h1, h2 {
 
 #ul-pad-r {
   padding-right: 170px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 #ul-pad-b {
   padding-right: 30px;
-  padding-bottom: 66px;
+  padding-bottom: 20px;
 }
 
 .float-ul {
@@ -242,7 +234,7 @@ h1, h2 {
 
 .project-style2 {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 80px;
   padding: 16px;
   border-style: solid;
   border-width: medium;
@@ -263,7 +255,12 @@ h1, h2 {
   border-style: solid;
   border-color: white;
   border-width: medium;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  max-height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 }
 
 .img-border {
@@ -271,6 +268,18 @@ h1, h2 {
   border-color: black;
   border-width: medium;
   margin-bottom: 40px;
+}
+
+#main-img {
+  border-style: solid;
+  border-color: white;
+  border-width: thick;
+  border-radius: 100px;
+  margin-top: 40px;
+}
+
+#img-orient {
+  image-orientation: (270deg);
 }
 
 hr {
@@ -289,4 +298,12 @@ border-width: thin;
 border-color: black;
 border-radius: 20px;
 box-shadow: 0px 3px 8px black;
+}
+
+.btn-color {
+  background-color: black;
+}
+
+.btn-red {
+  background-color: red;
 }
