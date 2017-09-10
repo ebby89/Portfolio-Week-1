@@ -1,31 +1,24 @@
+.page-style {
+    padding-top: 75px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
 #home {
-  padding-top: 75px;
-  background-image: url(../img/2thailand.JPG);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-}
-
+  background-image: url(../img/2thailand.JPG); }
 #about {
-  padding-top: 75px;
-  background-image: url(../img/tonsai.JPG);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
+  background-image: url(../img/tonsai.JPG); }
 #projects {
-  padding-top: 75px;
-  background-image: url(../img/1palms.JPG);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: fixed;
-  background-size: cover;
-  overflow-x: hidden;
-}
+  background-image: url(../img/1palms.JPG); }
+#activities {
+  background-image: url(../img/shoe.JPG); }
+#kitties {
+  background-image: url(../img/catface.jpg); }
+#contact {
+  background-image: url(../img/thaipalm.JPG); }
 
 #background-color-home {
   opacity: 0.8;
