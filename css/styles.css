@@ -5,6 +5,7 @@
   background-position: top;
   background-attachment: fixed;
   background-size: cover;
+  position: relative;
 }
 
 #about {
@@ -23,6 +24,7 @@
   background-position: top;
   background-attachment: fixed;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 #background-color-home {
@@ -216,4 +218,9 @@
 
 hr {
   border-color: black;
+}
+
+.fork-tag:hover {
+  color: white;
+  animation: wiggle 0.4s linear 1;
 }
